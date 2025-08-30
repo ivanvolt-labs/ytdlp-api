@@ -1,8 +1,13 @@
+# Python
 __pycache__
 *.pyc
 *.pyo
 *.pyd
 .Python
+env/
+.env
+.venv
+venv/
 env/
 pip-log.txt
 pip-delete-this-directory.txt
@@ -14,19 +19,32 @@ nosetests.xml
 coverage.xml
 *.cover
 *.log
+
+# Git
 .git
+.gitignore
+
+# IDE/Editors
+.DS_Store
+.vscode
+.idea
+*.swp
+*.swo
+
+# Development
 .mypy_cache
 .pytest_cache
 .hypothesis
 
-.DS_Store
-.vscode
-*.swp
-*.swo
-
-.env
-.venv
-env/
-
+# Node.js (if any)
 node_modules/
 npm-debug.log*
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Documentation
+README.md
+*.md
